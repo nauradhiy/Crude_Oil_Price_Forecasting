@@ -8,7 +8,7 @@ This project applies rigorous time series econometrics to model and forecast WTI
 
 ## Business Problem Statement
 
-Despite the availability of historical oil price data, analysts and policymakers often lack a structured, statistically validated forecasting framework for WTI prices. Without a reliable model, energy-related budget planning, subsidy policy decisions, and corporate hedging strategies rely on intuition rather than evidence — exposing institutions to unnecessary financial risk.
+Despite the availability of historical oil price data, analysts and policymakers often lack a structured, statistically validated forecasting framework for WTI prices. Without a reliable model, energy-related budget planning, subsidy policy decisions, and corporate hedging strategies rely on intuition rather than evidence, exposing institutions to unnecessary financial risk.
 
 ## Why This Project Matters
 
@@ -82,9 +82,9 @@ Crude oil price movements affect everything from national fiscal policy to consu
 | ARIMA(0,1,2) | 555.3 | ma2 not significant (p = 0.119) | ✓ |
 | ARIMA(2,1,0) | 556.1 | All significant | ✓ |
 
-**Selected Model: ARIMA(1,1,2)** — lowest AIC, all parameters significant at the 0.1% level, satisfies model parsimony.
+**Selected Model: ARIMA(1,1,2)** - lowest AIC, all parameters significant at the 0.1% level, satisfies model parsimony.
 
-## Forecast Accuracy (Test Set — 1997)
+## Forecast Accuracy (Test Set - 1997)
 
 | Model | ME | RMSE | MAE | MAPE | MASE |
 | --- | --- | --- | --- | --- | --- |
