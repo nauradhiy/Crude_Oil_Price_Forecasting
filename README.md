@@ -94,6 +94,8 @@ Crude oil price movements affect everything from national fiscal policy to consu
 
 ARIMA(1,1,2) achieves the smallest error across all metrics. Its ME and MPE are the closest to zero among all candidates, confirming that its forecasts most closely track the actual 1997 price trajectory.
 
+![image alt](https://github.com/nauradhiy/Crude_Oil_Price_Forecasting/blob/f5e604a885d6efbd523ad23d5b66422a238633f9/WTI%20Crude%20Oil%20Price%20Forecasting.png)
+
 ## Business Impact
 
 The ARIMA(1,1,2) model achieves a MAPE of 8.12% on the 1997 out-of-sample test set, demonstrating reliable short-term forecast performance. The Ljung-Box test confirms residuals satisfy white noise assumptions, validating the model's suitability for production forecasting. Residuals are approximately normally distributed with constant variance, making the 95% confidence intervals statistically interpretable for risk quantification in budget and hedging applications.
